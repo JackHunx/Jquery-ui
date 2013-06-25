@@ -3,7 +3,14 @@
 select{
 background-color:#fff;
 }
-
+.logo{
+height:80px;
+width:259px;
+float:left;
+margin-left:0px;
+margin-right:10px;
+border:0px;
+}
 .top-block{
 font-size:14px;
 text-align: center;

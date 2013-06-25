@@ -133,7 +133,9 @@ textarea {
   box-sizing: border-box;
 }
 body {
-  margin: 0;
+
+width:960px;
+  margin: 0 auto 0 auto ;
   font-family: "Ubuntu", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
