@@ -59,11 +59,30 @@
 	<!-- topbar starts -->
 	<div class="navbar">
 		<div class="container-fluid">
-			<a href="#">
+			<a href="#" class="pull-left logo">
 			<img class="logo" src="http://www.1891d.com/themes/61dai/images/logo.gif" alt="log"/>
 			</a>
+			<!-- top view info
+			
+			<div class="pull-left span3">众兴投资理财</div>
+			
+			<!--- end top view -->
 			<!-- user dropdown starts -->
+			<!---not login --->
+					  <div class="pull-right span4 show-grid">
+					  	<a href="#" class="pull-right"><button class="btn btn-mini">分享</button></a>
+						<a href="#" class="pull-right"><button class="btn btn-mini">登录</button></a>
+						<a href="#" class="pull-right"><button class="btn btn-mini">免费注册</button></a>
+						
+						
+						
+					  </div>
+					<!---end login -->
+					 
+			
 				<div class="btn-group pull-right" >
+					
+					<!-- login 
 					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
 						<i class="icon-user"></i><span class="hidden-phone"> admin</span>
 						<span class="caret"></span>
@@ -73,11 +92,29 @@
 						<li class="divider"></li>
 						<li><a href="login.html">登出</a></li>
 					</ul>
+					<!--- end login --->
 				</div>
 				<!-- user dropdown ends -->
 		</div>
 	</div>
 	
+	
+	
+	<div class="headertabnav"><ul><li class="l cursor on"><a href="http://www.ppdai.com/"><span class="l center">首页</span></a><span class="r vertical"></span></li><li class="l cursor"><a href="http://www.ppdai.com/lend/"><span class="l center">我要借出</span></a><span class="r vertical"></span></li><li class="l cursor"><a href="http://www.ppdai.com/borrow/"><span class="l center">我要借入</span></a><span class="r vertical"></span></li><li class="l cursor"><a href="http://www.ppdai.com/account1/"><span class="l center">我的账户</span></a><span class="r vertical"></span></li><li class="l cursor"><a href="http://help.ppdai.com/"><span class="l center">帮助</span></a><span class="r vertical"></span></li><li class="l cursor"><a href="http://group.ppdai.com/"><span class="l center">论坛</span></a><span class="r vertical"></span></li><li class="l cursor"><a href="http://www.ppdai.com/bjbz/cxbz.html"><span class="l center">本金保障</span></a><span class="r vertical"></span></li><li class="r yahei" style="width:230px;display:none;">咨询电话：400-1181-081</li></ul></div>
+	<div class="headertabbottom"><ul><li class="l cursor on"><a href="http://www.ppdai.com/">欢迎</a></li><li class="l cursor"><a href="http://www.ppdai.com/help/how_it_works.htm">工作原理</a></li><li class="l cursor"><a href="http://www.ppdai.com/help/law.htm">法律政策</a></li><li class="l cursor"><a href="http://www.ppdai.com/help/fees.htm">资费说明</a></li><li class="l cursor"><a href="http://www.ppdai.com/help/aboutus.htm">关于我们</a></li><li class="l cursor"><a href="http://group.ppdai.com/forum.php?mod=announcement">最新公告</a></li></ul></div>
+		<!--- user guid ---
+		<div class="row-fluid span7 show-grid">
+			<p class="btn-group green ">
+			<button class="btn btn-large btn-primary">首页</button>
+			<button class="btn btn-large btn-primary">我要投资</button>
+			<button class="btn btn-large btn-primary">我要贷款</button>
+			<button class="btn btn-large btn-primary">我的账号</button>
+			<button class="btn btn-large btn-primary">工具箱</button>
+			<button class="btn btn-large btn-primary">客服中心</button>
+			<button class="btn btn-large btn-primary">借贷论坛</button>
+			</p>
+		</div>
+		<!--- end guid --->
 	
 	
 	<!-- topbar ends -->
@@ -86,31 +123,7 @@
 		<div class="row-fluid">
 		<?php if(!isset($no_visible_elements) || !$no_visible_elements) { ?>
 		
-			<!-- left menu starts -->
-			<div class="span2 main-menu-span">
-				<div class="well nav-collapse sidebar-nav">
-					<ul class="nav nav-tabs nav-stacked main-menu">
-						<li class="nav-header hidden-tablet">Main</li>
-						<li><a class="ajax-link" href="index.html"><i class="icon-home"></i><span class="hidden-tablet"> Dashboard</span></a></li>
-						<li><a class="ajax-link" href="ui.html"><i class="icon-eye-open"></i><span class="hidden-tablet"> UI Features</span></a></li>
-						<li><a class="ajax-link" href="form.html"><i class="icon-edit"></i><span class="hidden-tablet"> Forms</span></a></li>
-						<li><a class="ajax-link" href="chart.html"><i class="icon-list-alt"></i><span class="hidden-tablet"> Charts</span></a></li>
-						<li><a class="ajax-link" href="typography.html"><i class="icon-font"></i><span class="hidden-tablet"> Typography</span></a></li>
-						<li><a class="ajax-link" href="gallery.html"><i class="icon-picture"></i><span class="hidden-tablet"> Gallery</span></a></li>
-						<li class="nav-header hidden-tablet">Sample Section</li>
-						<li><a class="ajax-link" href="table.html"><i class="icon-align-justify"></i><span class="hidden-tablet"> Tables</span></a></li>
-						<li><a class="ajax-link" href="calendar.html"><i class="icon-calendar"></i><span class="hidden-tablet"> Calendar</span></a></li>
-						<li><a class="ajax-link" href="grid.html"><i class="icon-th"></i><span class="hidden-tablet"> Grid</span></a></li>
-						<li><a class="ajax-link" href="file-manager.html"><i class="icon-folder-open"></i><span class="hidden-tablet"> File Manager</span></a></li>
-						<li><a href="tour.html"><i class="icon-globe"></i><span class="hidden-tablet"> Tour</span></a></li>
-						<li><a class="ajax-link" href="icon.html"><i class="icon-star"></i><span class="hidden-tablet"> Icons</span></a></li>
-						<li><a href="error.html"><i class="icon-ban-circle"></i><span class="hidden-tablet"> Error Page</span></a></li>
-						<li><a href="login.html"><i class="icon-lock"></i><span class="hidden-tablet"> Login Page</span></a></li>
-					</ul>
-					<label id="for-is-ajax" class="hidden-tablet" for="is-ajax"><input id="is-ajax" type="checkbox"> Ajax on menu</label>
-				</div><!--/.well -->
-			</div><!--/span-->
-			<!-- left menu ends -->
+			
 			
 			<noscript>
 				<div class="alert alert-block span10">
