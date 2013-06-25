@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Karla|Ubuntu);
-/*!
+/*@import url(https://fonts.googleapis.com/css?family=Karla|Ubuntu);
+ *!
  * Bootstrap v2.0.4
  *
  * Copyright 2012 Twitter, Inc
@@ -4203,7 +4203,7 @@ a.badge:hover {
   visibility: hidden;
 }
 .navbar,.top-block {
-  font-family: 'Karla', sans-serif;
+  font-family: 'arial';
 }
 .navbar .navbar-inner {
   background-color: #3f9fd9;
