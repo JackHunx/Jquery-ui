@@ -479,6 +479,9 @@ color: #B94846;
 .blue {
 color: #3986AC;
 }
+.white{
+color:white;
+}
 .yellow {
 color: #F99406;
 }
@@ -506,3 +509,6 @@ box-shadow: 0 0 10px #BDBDBD;
 .box-content.buttons{
 min-height:297px;
 }
+
+
+

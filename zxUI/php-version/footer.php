@@ -102,6 +102,52 @@
 	<script src="js/jquery.history.js"></script>
 	<!-- application script for Charisma demo -->
 	<script src="js/charisma.js"></script>
+	<script type="text/javascript">
+    var site_url = window.location.href.toLowerCase();	
+   
+	switch (true) {
+		case site_url.indexOf("/jsfoot") > 0 || site_url.indexOf("/fafds") > 0 || site_url.indexOf("/js") > 0 : 
+		//判断当前频道属于哪个根目录模块就设置频道标签高亮
+			$("#nav li").attr("class","");
+			$("#nav li").eq(1).attr("class","nav_lishw"); //设置当前频道标签高亮
+			$(".nav_lishw .v a").attr("class","sele");
+			$(".nav_lishw .kind_menu").show();
+			break;
+		default :
+			$("#nav li").attr("class","");
+			$("#nav li").eq(0).attr("class","nav_lishw");
+			$(".nav_lishw .v a").attr("class","sele");
+			$(".nav_lishw .kind_menu").show();
+	}
+	
+	$("#nav li").hover(
+		function(){
+			clearTimeout(setTimeout("0")-1);
+			$("#nav .kind_menu").hide(); 
+			$("#nav li .v .sele").attr("class","shutAhover");
+			$(this).attr("id","nav_hover");
+			
+			$("#nav_hover .v a").attr("class","sele");
+			$("#nav_hover .kind_menu").show(); 
+		},
+		function(){
+			
+			if($(this).attr("class") != "nav_lishw"){
+				$("#nav_hover .v .sele").attr("class","");
+				
+				$("#nav_hover .kind_menu").hide(); 
+			}
+			$(this).attr("id","")
+			$("#nav li .v .shutAhover").attr("class","sele");
+			setTimeout(function(){
+				$(".nav_lishw .kind_menu").show();
+				$(".nav_lishw .v a").attr("class","sele");
+			},50); 
+		}
+	);
+	
+</script>
+	
 	
 	<?php //Google Analytics code for tracking my demo site, you can remove this.
 		if($_SERVER['HTTP_HOST']=='usman.it') { ?>
@@ -115,6 +161,7 @@
 			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
 			})();
 		</script>
+		
 	<?php } ?>
 	
 </body>
