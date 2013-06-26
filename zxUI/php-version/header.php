@@ -78,7 +78,7 @@ background-position:0 -99px;
 #nav .kind_menu a:hover{color:#000;border-bottom:2px #369bd7 solid;}
 #nav .kind_menu span{font-size:15px;color:#000;line-height:30px;*line-height:26px;float:left }	
 #nav .btn{padding:none;margin:0xp 0px 0px 0px;}
-
+.guid{margin-left:10px;}
 /* slider */
 #slider_nav{margin:5px auto;width:620px;height:200px;border:1px solid #ccc;position:relative;overflow:hidden;}
 .conbox{position:absolute;/*必要元素*/}
@@ -118,9 +118,9 @@ background-position:0 -99px;
 			<!-- user dropdown starts -->
 			<!---not login --->
 					  <div class="pull-right span4">
-					  	<a href="#" class="pull-right"><button class="btn btn-mini">分享</button></a>
-						<a href="#" class="pull-right"><button class="btn btn-mini">登录</button></a>
-						<a href="#" class="pull-right"><button class="btn btn-mini">免费注册</button></a>
+					  	<p class="pull-right"><a class="guid" href="#" >分享 </a></p>
+						<p class="pull-right"><a class="guid" href="#" >登录 </a></p>
+						<p class="pull-right"><a class="guid" href="#" >免费注册 </a></p>
 						
 						
 						
