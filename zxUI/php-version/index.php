@@ -40,9 +40,11 @@
 							</div>
 							<div class="clearfix"></div>
 
-							<p class="center span4">
+							<p class="pull-left span5">
 							<button type="submit" class="btn btn-primary">登录</button>
+							
 							</p>
+							
 						</fieldset>
 					</form>
 					</div>
