@@ -56,14 +56,22 @@
 	<style type="text/css">
 	
 /* nav */
-#nav{position:relative;width:950px;height:34px;margin:5px auto 30px 20px;background-color:#43a1da;}
+#nav{
+background:url(./img/img.png) 0 0 no-repeat;
+_background:url(./img/img.gif) 0 0 no-repeat;
+background-position:0 -99px;
+	background-repeat:repeat-x;
+
+	position:relative;width:920px;height:34px;margin:5px auto 30px 20px;background-color:#43a1da;}
 #nav ul{margin:0 0 9px 1px}
 #nav li{float:left;list-style:none;text-align:center;font-size:13px;}
-#nav li .v a{height:14px;line-height:14px;display:block;color:#FFF;float:left;font-family:Arial,Verdana,Tahoma,"宋体";}
-#nav li .v a:hover,#nav li .v .sele{ text-decoration:none;color:yellow;height:14px;line-height:14px;font-size:15px;padding-left:0px;}
-#nav .kind_menu{height:15px;*height:16px;line-height:20px;vertical-align:middle;position:absolute;left:5px;width:880px;text-align:left;display:none;color:#000;font-size:12px;}
+#nav li .vertical{display:block;width:2px;height:30px;background:url('./img/wage_earners.png') 0 0 no-repeat;
+	_background:url('./img/wage_earners.png') 0 0 no-repeat;background-position: -152px -62px;}
+#nav li .v a{font-weight:bold;width:100px;height:14px;line-height:33px;display:block;color:#FFF;float:left;font-family:Arial,Verdana,Tahoma,"宋体";}
+#nav li .v a:hover,#nav li .v .sele{ text-decoration:none;color:yellow;height:14px;line-height:33px;font-size:15px;padding-left:0px;}
+#nav .kind_menu{top:35px;height:15px;*height:16px;line-height:20px;vertical-align:middle;position:absolute;left:2px;width:880px;text-align:left;display:none;color:#000;font-size:12px;}
 #nav .kind_menu a{color:#000;float:left;text-align:center;width:60px;font-family:Arial,Verdana,Tahoma,"宋体";font-size:10px;}
-#nav .kind_menu a:hover{color:#000;border-bottom:2px #a60000 solid;}
+#nav .kind_menu a:hover{color:#000;border-bottom:2px #369bd7 solid;}
 #nav .kind_menu span{font-size:15px;color:#000;line-height:30px;*line-height:26px;float:left }	
 #nav .btn{padding:none;margin:0xp 0px 0px 0px;}
 </style>
@@ -148,27 +156,80 @@
 		<ul class="c">
 		
 			<li class="nav_lishw" id="">
-				<button class="btn btn-large btn-primary"><span class="v"><a class="white" href="http://www.17sucai.com/" target="_blank" class="sele">首页</a></span> </button>
-				<div class="kind_menu" style=" display: block;">首页二级分类</div>
+				<span class="v"><a class="white" href="http://www.17sucai.com/" target="_blank" class="sele">首页</a><span class="vertical pull-right"></span></span> 
+				<div class="kind_menu" style=" display: block;">
+					<a href="">欢迎</a>
+					<a href="http://www.17sucai.com/">关于我们</a>
+					<a href="http://www.17sucai.com/">法律政策</a>
+					<a href="http://www.17sucai.com/">资费说明</a>
+					<a href="http://www.17sucai.com/">公司证件</a>
+					<a href="http://www.17sucai.com/">工作原理</a>
+					<a href="http://www.17sucai.com/">人才招聘</a>
+					<a href="http://www.17sucai.com/">新闻动态</a>
+				
+				<!---
+				<p class="btn-group">
+					<button class="btn "><a href="">欢迎</a></button>
+					<button class="btn "><a href="http://www.17sucai.com/">关于我们</a></button>
+					<button class="btn "><a href="http://www.17sucai.com/">法律政策</a></button>
+					<button class="btn "><a href="http://www.17sucai.com/">资费说明</a></button>
+					<button class="btn "><a href="http://www.17sucai.com/">公司证件</a></button>
+					<button class="btn "><a href="http://www.17sucai.com/">工作原理</a></button>
+					<button class="btn "><a href="http://www.17sucai.com/">人才招聘</a></button>
+					<button class="btn "><a href="http://www.17sucai.com/">新闻动态</a></button>
+				</p>
+				-->
+				</div>
 			</li>
 		
 			
 			<li class="" id="">
-				<button class="btn btn-large btn-primary"><span class="v"> <a class="whiete" href="http://www.17sucai.com/" class="">我要投资</a></span> </button>
+				<span class="v"> <a class="whiete" href="http://www.17sucai.com/" class="">我要投资</a></span> 
 				<div class="kind_menu" style="display: none;">
 				<p class="btn-group">
-					<button class="btn "><a href="http://www.17sucai.com/">jquery</a></button>
-					<button class="btn "><a href="http://www.17sucai.com/">jquery</a></button>
-					<button class="btn "><a href="http://www.17sucai.com/">jquery</a></button>
-					<button class="btn "><a href="http://www.17sucai.com/">jquery</a></button>
-					<button class="btn "><a href="http://www.17sucai.com/">jquery</a></button>
-					<button class="btn "><a href="http://www.17sucai.com/">jquery</a></button>
+					<a href="http://www.17sucai.com/"><button class="btn ">正在投标</button></a>
+					<button class="btn hide "><a href="http://www.17sucai.com/">正在担保</a></button>
+					<button class="btn "><a href="http://www.17sucai.com/">等待复审</a></button>
+					<button class="btn "><a href="http://www.17sucai.com/">成功借款</a></button>
+					<button class="btn "><a href="http://www.17sucai.com/">逾期借款</a></button>
+					
 					
 					</p>
 				</div>
 			</li>
 			<li class="" id="">
-				<span class="v"><button class="btn btn-large btn-primary"> <a class="whiete" href="http://www.17sucai.com/" class="">我要投资</a></button></span> 
+				<span class="v"> <a class="whiete" href="http://www.17sucai.com/" class="">我要贷款</a><span class="vertical pull-right"></span></span> 
+				<div class="kind_menu" style=" display: none;">
+				<p class="btn-group">
+				<!-- befor login-->
+					<button class="btn"><a href="http://www.17sucai.com/">如何借入</a></button>
+					<button class="btn"><a href="http://www.17sucai.com/">利息计算器</a></button>
+					<button class="btn"><a href="http://www.17sucai.com/">客服咨询</a></button>
+					<!-- after login -->
+					<button class="btn"><a href="http://www.17sucai.com/">借款管理</a></button>
+					<button class="btn"><a href="http://www.17sucai.com/">额度管理</a></button>
+					<button class="btn"><a href="http://www.17sucai.com/">已满额</a></button>
+				<!-- end -->
+					</p>
+				</div>
+			</li>
+			<li class="" id="">
+				<span class="v"> <a class="whiete" href="http://www.17sucai.com/" class="">我的账户</a><span class="vertical pull-right"></span></span> 
+				<div class="kind_menu" style=" display: none;">
+				<!--- before login -->
+				<div>欢迎来到众兴投资</div>
+				<!-- after login--
+				<p class="btn-group">
+					<button class="btn"><a href="http://www.17sucai.com/">我是借入者</a></button>
+					<button class="btn"><a href="http://www.17sucai.com/">我是借出者</a></button>
+					
+					
+					</p>
+				<!--- end login-->
+				</div>
+			</li>
+			<li class="" id="">
+				<span class="v"><a class="whiete" href="http://www.17sucai.com/" class="">我要投资</a><span class="vertical pull-right"></span></span> 
 				<div class="kind_menu" style=" display: none;">
 				<p class="btn-group">
 					<button class="btn"><a href="http://www.17sucai.com/">jquery</a></button>
@@ -182,7 +243,7 @@
 				</div>
 			</li>
 			<li class="" id="">
-				<span class="v"><button class="btn btn-large btn-primary"> <a class="whiete" href="http://www.17sucai.com/" class="">我要投资</a></button></span> 
+				<span class="v"> <a class="whiete" href="http://www.17sucai.com/" class="">我要投资</a><span class="vertical pull-right"></span></span> 
 				<div class="kind_menu" style=" display: none;">
 				<p class="btn-group">
 					<button class="btn"><a href="http://www.17sucai.com/">jquery</a></button>
@@ -196,35 +257,7 @@
 				</div>
 			</li>
 			<li class="" id="">
-				<span class="v"><button class="btn btn-large btn-primary"> <a class="whiete" href="http://www.17sucai.com/" class="">我要投资</a></button></span> 
-				<div class="kind_menu" style=" display: none;">
-				<p class="btn-group">
-					<button class="btn"><a href="http://www.17sucai.com/">jquery</a></button>
-					<button class="btn"><a href="http://www.17sucai.com/">jquery</a></button>
-					<button class="btn"><a href="http://www.17sucai.com/">jquery</a></button>
-					<button class="btn"><a href="http://www.17sucai.com/">jquery</a></button>
-					<button class="btn"><a href="http://www.17sucai.com/">jquery</a></button>
-					<button class="btn"><a href="http://www.17sucai.com/">jquery</a></button>
-					
-					</p>
-				</div>
-			</li>
-			<li class="" id="">
-				<span class="v"><button class="btn btn-large btn-primary"> <a class="whiete" href="http://www.17sucai.com/" class="">我要投资</a></button></span> 
-				<div class="kind_menu" style=" display: none;">
-				<p class="btn-group">
-					<button class="btn"><a href="http://www.17sucai.com/">jquery</a></button>
-					<button class="btn"><a href="http://www.17sucai.com/">jquery</a></button>
-					<button class="btn"><a href="http://www.17sucai.com/">jquery</a></button>
-					<button class="btn"><a href="http://www.17sucai.com/">jquery</a></button>
-					<button class="btn"><a href="http://www.17sucai.com/">jquery</a></button>
-					<button class="btn"><a href="http://www.17sucai.com/">jquery</a></button>
-					
-					</p>
-				</div>
-			</li>
-			<li class="" id="">
-				<span class="v"><button class="btn btn-large btn-primary"> <a class="whiete" href="http://www.17sucai.com/" class="">我要投资</a></button></span> 
+				<span class="v"> <a class="whiete" href="http://www.17sucai.com/" class="">我要投资</a></span> 
 				<div class="kind_menu" style=" display: none;">
 				<p class="btn-group">
 					<button class="btn"><a href="http://www.17sucai.com/">jquery</a></button>
