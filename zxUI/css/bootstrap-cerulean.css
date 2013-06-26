@@ -4454,3 +4454,6 @@ i[class^="icon-"] {
 .invisible {
   visibility: hidden;
 }
+.footer_nav{height:80px; margin-top:40px; width:100%; background:url(./../img/yejiaobg.png) 0 0 repeat-x; margin-top:10px;_}
+.footer_nav .indexbottom{width:940px; padding-left:20px; padding-right:20px; margin-left:auto; margin-right:auto; padding-top:12px; font-size:12px; color:#666666}
+	
