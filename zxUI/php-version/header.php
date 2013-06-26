@@ -65,7 +65,7 @@ _background:url(./img/img.gif) 0 0 no-repeat;
 background-position:0 -99px;
 	background-repeat:repeat-x;
 
-	position:relative;width:920px;height:34px;margin:5px auto 30px 20px;background-color:#43a1da;}
+	position:relative;width:960px;height:34px;margin:5px auto 30px 0px;background-color:#43a1da;}
 #nav ul{margin:0 0 9px 1px; *display:inline-block;height:35px;}
 #nav li{vertical-align:bottom;height:35px;width:110px;float:left;list-style:none;text-align:center;font-size:13px;}
 #nav li .vertical{display:block;width:2px;height:30px;background:url('./img/wage_earners.png') 0 0 no-repeat;
@@ -78,6 +78,18 @@ background-position:0 -99px;
 #nav .kind_menu a:hover{color:#000;border-bottom:2px #369bd7 solid;}
 #nav .kind_menu span{font-size:15px;color:#000;line-height:30px;*line-height:26px;float:left }	
 #nav .btn{padding:none;margin:0xp 0px 0px 0px;}
+
+/* slider */
+#slider_nav{margin:5px auto;width:620px;height:200px;border:1px solid #ccc;position:relative;overflow:hidden;}
+.conbox{position:absolute;/*必要元素*/}
+.switcher{position:absolute;bottom:10px;right:10px;float:right;z-index:99;}
+.switcher a{background:#666666;cursor:pointer;float:left;font-family:arial;height:14px;line-height:14px;width:14px;margin:4px;text-align:center;color:white;}
+.switcher a.cur,.switcher a:hover{background:#666666;border:1px solid #666666;height:18px;line-height:18px;width:18px;margin:0 2px;color:white;font-weight:800;}
+
+#slider_nav .conbox{width:9999em;}
+#slider_nav .conbox div{width:620px;height:250px;overflow:hidden;float:left;}
+
+
 </style>
 		
 </head>
@@ -279,7 +291,7 @@ background-position:0 -99px;
 	
 	<!-- topbar ends -->
 	<?php } ?>
-	<div class="container-fluid">
+	<div>
 		<div class="row-fluid">
 		<?php if(!isset($no_visible_elements) || !$no_visible_elements) { ?>
 		
@@ -292,6 +304,6 @@ background-position:0 -99px;
 				</div>
 			</noscript>
 			
-			<div id="content" class="span10">
+			<div id="content">
 			<!-- content starts -->
 			<?php } ?>
