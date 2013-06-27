@@ -21,13 +21,75 @@
 			</div>
 		</div><!--slider end-->
 	<!--- end slide -->
-	<!-- login begin -->
+	<!-- login begin --
 	
-	<div class="well login-box pull-right">
+	<div class="l index_topnav_rightnav">
+                 <ul>
+                <li class="l titleft"></li>
+                <li class="l titcenter"><span class="bold l">用户登录</span></li>
+                <li class="l titright"></li>
+            </ul>
+			<div class="index_login_nav">
+                  
+				<div style="padding: 5px 0 0; margin-left: 10px;">
+                    <table align="center" cellpadding="3" cellspacing="3" style="width:280px;">
+                 
+						<tbody><tr>
+                            <td style="width:30px;" align="right">
+                                用户名：
+                            </td>
+                            <td class="style2">
+                                <input name="txtUserName" type="text" value="test3" id="txtUserName" class="lsls" onfocus="changeborder(this)" onblur="changeborder2(this)" >
+                                <span id="_txtUserName" class="red"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:30px;"  align="right">
+                                密 码：
+                            </td>
+                            <td class="style2">
+                                <input name="txtPassword" type="password" maxlength="50" id="txtPassword" onfocus="changeborder(this)" onblur="changeborder2(this)" >
+                               
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                &nbsp;
+                            </td>
+                            <td>
+                                <div id="palError" class="ErrorMsg" style="display: none;
+                                    margin-left: 0px; margin-bottom: 0px; width: 280px">
+	
+                                    <span style="margin: 6px 0 6px 35px;">
+                                        
+                                    </span>
+                                
+</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style1">
+                            </td>
+                            <td class="style2">
+                                <input class="center" type="image" name="btnLogin" id="btnLogin" src="http://static.ppdai.com/skin/images/login_n_button.gif" alt="登录" style="border-width:0px;width:85px;height:28px;">&nbsp;
+                            </td>
+                        </tr>
+                        
+                    </tbody></table>
+                </div>
+            </div>
+        </div>
+	<!---->
+	<div class="l index_topnav_loginnav">
+                 <ul>
+                <li class="l titleft"></li>
+                <li class="l titcenter"><span class="bold l">用户登录</span><a class="pull-right gray" style="color:#666666" href="#">>>免费注册</a></li>
+                <li class="l titright"></li>
+            </ul>
+	<div class="login-box index_login_nav">
 				<div class="center">
-					<div class="alert alert-info">
-						用户登录
-					</div>
+					
 					<form class="form-horizontal" action="index.html" method="post">
 						<fieldset>
 							<div class="input-prepend" data-rel="tooltip" data-original-title="用户名">
@@ -40,7 +102,7 @@
 							</div>
 							<div class="clearfix"></div>
 
-							<p class="pull-left span5">
+							<p class="center span5">
 							<button type="submit" class="btn btn-primary">登录</button>
 							
 							</p>
@@ -48,6 +110,7 @@
 						</fieldset>
 					</form>
 					</div>
+				
 				</div>
 	<!-- login end --->
 </div>
@@ -392,11 +455,11 @@
                     
             </div>
         </div>
-		<!---公告-->
+		<!---新手指南-->
 		<div class="index_center_rightnav1 l">
             <ul>
                 <li class="l titleft"></li>
-                <li class="l titcenter"><span class="bold l">最新公告</span><a href="http://group.ppdai.com/forum.php?mod=announcement" style="color: #999999" class="r">&gt;&gt;更多</a></li>
+                <li class="l titcenter"><span class="bold l">新手指南</span><a href="http://group.ppdai.com/forum.php?mod=announcement" style="color: #999999" class="r">&gt;&gt;更多</a></li>
                 <li class="l titright"></li>
             </ul>
             <div class="clear">
@@ -437,8 +500,16 @@
             </div>
             <div class="blue_fenge">
             </div>
-            <div class="list_nav">
+            <div class="list_nav" style="height:326px;">
                 <div class="img_nav l">
+                    <img src="http://static.ppdai.com/skin/images/f3725d12-17b8-4ba4-9b20-4925baeeb0d4_min_50.jpg" width="50" height="50" alt=" 感谢各位拍友，感谢小四，感谢拍拍贷"></div>
+                <ul class="l" style="width: 180px;">
+                    <li style="color: #3469cf"><a href="http://group.ppdai.com/forum.php?mod=viewthread&amp;tid=686789&amp;highlight=%E6%84%9F%E8%B0%A2%E5%90%84%E4%BD%8D%E6%8B%8D%E5%8F%8B%EF%BC%8C%E6%84%9F%E8%B0%A2%E5%B0%8F%E5%9B%9B%EF%BC%8C%E6%84%9F%E8%B0%A2%E6%8B%8D%E6%8B%8D%E8%B4%B7" target="_blank" title=" 感谢各位拍友，感谢小四，感谢拍拍贷">感谢各位拍友，感谢小四，. . .</a></li>
+                    <li style="line-height: 17px;">主题：面对生活的压力，我不必默默坚持，拍拍贷能够提供优质...</li>
+                </ul>
+                <div class="clear" style="height: 15px;">
+                </div>
+				<div class="img_nav l">
                     <img src="http://static.ppdai.com/skin/images/f3725d12-17b8-4ba4-9b20-4925baeeb0d4_min_50.jpg" width="50" height="50" alt=" 感谢各位拍友，感谢小四，感谢拍拍贷"></div>
                 <ul class="l" style="width: 180px;">
                     <li style="color: #3469cf"><a href="http://group.ppdai.com/forum.php?mod=viewthread&amp;tid=686789&amp;highlight=%E6%84%9F%E8%B0%A2%E5%90%84%E4%BD%8D%E6%8B%8D%E5%8F%8B%EF%BC%8C%E6%84%9F%E8%B0%A2%E5%B0%8F%E5%9B%9B%EF%BC%8C%E6%84%9F%E8%B0%A2%E6%8B%8D%E6%8B%8D%E8%B4%B7" target="_blank" title=" 感谢各位拍友，感谢小四，感谢拍拍贷">感谢各位拍友，感谢小四，. . .</a></li>
