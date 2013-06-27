@@ -43,6 +43,8 @@
 	<link href='css/jquery.iphone.toggle.css' rel='stylesheet'>
 	<link href='css/opa-icons.css' rel='stylesheet'>
 	<link href='css/uploadify.css' rel='stylesheet'>
+	<link href='css/login_index.css' rel='stylesheet'>
+	<link href='css/index.css' rel='stylesheet'>
 
 	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -65,7 +67,7 @@ _background:url(./img/img.gif) 0 0 no-repeat;
 background-position:0 -99px;
 	background-repeat:repeat-x;
 
-	position:relative;width:960px;height:34px;margin:5px auto 30px 0px;background-color:#43a1da;}
+	position:relative;width:985px;height:34px;margin:5px auto 30px 0px;background-color:#43a1da;}
 #nav ul{margin:0 0 9px 1px; *display:inline-block;height:35px;}
 #nav li{vertical-align:bottom;height:35px;width:110px;float:left;list-style:none;text-align:center;font-size:13px;}
 #nav li .vertical{display:block;width:2px;height:30px;background:url('./img/wage_earners.png') 0 0 no-repeat;
@@ -80,7 +82,7 @@ background-position:0 -99px;
 #nav .btn{padding:none;margin:0xp 0px 0px 0px;}
 .guid{margin-left:10px;}
 /* slider */
-#slider_nav{margin:5px auto;width:620px;height:200px;border:1px solid #ccc;position:relative;overflow:hidden;}
+#slider_nav{margin:5px auto;width:650px;height:200px;border:1px solid #ccc;position:relative;overflow:hidden;}
 .conbox{position:absolute;/*必要元素*/}
 .switcher{position:absolute;bottom:10px;right:10px;float:right;z-index:99;}
 .switcher a{background:#666666;cursor:pointer;float:left;font-family:arial;height:14px;line-height:14px;width:14px;margin:4px;text-align:center;color:white;}
@@ -117,12 +119,23 @@ background-position:0 -99px;
 			<!--- end top view -->
 			<!-- user dropdown starts -->
 			<!---not login --->
-					  <div class="pull-right span4">
-					  	<p class="pull-right"><a class="guid" href="#" >分享 </a></p>
+					  <div class="pull-right span3">
+					  	<ul class="dashboard-list">
+							<li class="pull-left gray">游客</li>
+							<li class="pull-left"><a class="guid" href="#" >免费注册 </a></li>
+							<li class="pull-left"><a class="guid" href="#" >登录 </a></li>
+							<li class="pull-left"><a class="guid" href="#" >分享 </a></li>
+							
+							
+						
+						</ul>
+						
+						<!--
+						<p class="pull-right"><a class="guid" href="#" >分享 </a></p>
 						<p class="pull-right"><a class="guid" href="#" >登录 </a></p>
 						<p class="pull-right"><a class="guid" href="#" >免费注册 </a></p>
 						
-						
+						-->
 						
 					  </div>
 					<!---end login -->
